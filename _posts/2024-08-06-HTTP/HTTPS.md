@@ -20,7 +20,7 @@ title : "HTTP/HTTPS"
     - 웹 브라우저 : 사용자가 웹 페이지를 요청하고 받은 응답을 해석하여 보여주는 프로그램
 
 ## 웹의 동작
-![alt text](image.png)
+![image (1)](https://github.com/user-attachments/assets/716e4baa-febb-4fb6-98c6-2d4988aa20dd)
 - 브라우저 주소 입력란에 URL을 입력하면 브라우저는 서버에게 해당 주소에 대한 리소스를 요청하고 웹 서버는 응답을 통해서 리소스를 전송.
 - 이때 클라이언트가 서버를 찾아가려면 주소가 있어야 하는데, 그 주소는 DNS에 있음
 
@@ -31,7 +31,8 @@ EX)```urn:isbn:1234567890, http://example.com/page.html```
 EX) ```http://example.com/page.html, ftp://example.com/file.zip```
 - URN : 리소스에 이름 부여</br>
 EX) ```urn:uuid:f81d4fae-7dec-11d0-a765-00a0c91e6bf6 ```(A유저의 UUID 예시)
-![alt text](image-1.png)
+![image-1 (1)](https://github.com/user-attachments/assets/e3d2df45-e5b2-48b9-bf02-c1dd22753030)
+
 ```python
 from urllib.parse import urlparse
  
@@ -144,10 +145,10 @@ TCP/IP는 인터넷 통신을 위한 기본 프로토콜 스위트(Protocol Suit
         - 재조립된 편지를 읽습니다. 이는 수신된 데이터를 처리하는 것을 나타냅니다.
 
 - 정보를 감싸는 캡슐화를 통해 계층간 정보 전달
-![alt text](image-2.png)
+![image-2 (1)](https://github.com/user-attachments/assets/2ecf7d93-ace9-4fca-b31c-3d24aa924af2)
 
 - Response(응답)과 Request(요청) 과정
-![alt text](image-3.png)
+![image-3](https://github.com/user-attachments/assets/1ec211a8-1c1c-4418-bb45-65aa91d52b59)
 
 ## 클라이언트 상태 저장
 ### 쿠키 vs 로컬 스토리지
